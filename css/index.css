@@ -1351,6 +1351,19 @@ body {
 input::placeholder {
   color: var(--font-color);
 }
+#web_bg {
+  position: fixed;
+  z-index: -999;
+  width: 100%;
+  height: 100%;
+  background: https://mail.qq.com/cgi-bin/download?sid=VM4xl51wwugPYQpq&upfile=RSvNL0zLPy%2FdD198UYmt2Gy6TVeAdM9Z%2BfME%2BGrL%2BEHp68D5NZpS8n1ipgthPv2h7kapLgylKu86Fjp5OVNLQseJFl6ksYbgm2Of4dGJNpDzAzwctZIaNWq509IXMM9MLy7UQ3yvZysmKVCZfUtcb3xgLzRvJxX1frjFgrT15Ns%3D;
+  background-attachment: local;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 h1,
 h2,
 h3,
